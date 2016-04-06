@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sinatra</title>
+</head>
+<body>
+	<h1>Hola</h1>	
+	<p>I hope you are having a good day</p>
+
+	<%	15.times do |n| %>
+		<% if n.odd? %>
+		<p><%= n %> is odd!</p>
+		<% else %>
+			<p><%= n %> is even</p>
+			<% end -%>
+		<% end %>
+</body>
+</html>
